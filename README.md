@@ -64,5 +64,25 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-3D Cell Bioprinting Consortium is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/3dcellbioprintingconsortium
+The 3D Cell Bioprinting Consortium (EquityZen symbol **TDCC**) is an alliance of laboratory-instrument
+and biomaterials companies formed in 2016 and publicly launched in February 2017, headquartered in
+Marlborough, Massachusetts. It describes itself as "a group of companies focused on offering the
+complete solution for tissue engineering", coordinating bioprinter hardware, bioinks and hydrogels,
+cell lines and culture reagents into a single workflow for pre-clinical drug discovery, regenerative
+medicine and diagnostics. It was founded by Sid Braginsky (CEO and Chairman, Digilab Corp.); named
+members include Digilab, Inc. (CellJet cell printer) and 3-D Matrix, Inc. (self-assembling peptide
+hydrogels).
+
+## Why this profile is thin
+
+The consortium is a coordinating body for physical laboratory products, not a software vendor, and it
+publishes **no first-party web presence at all**. Every name-derived domain probed on 2026-09-05 is
+NXDOMAIN — `3dcellbioprintingconsortium.com`/`.org`, `3dcellbioprinting.com`/`.org`,
+`bioprintingconsortium.org`, `cellbioprintingconsortium.com` — so there is no host on which a
+developer portal, OpenAPI, `llms.txt`, MCP server or `/.well-known/` surface could exist. The only
+reachable record is the EquityZen secondary-market listing, which is a trading venue and not the
+company's website, so it is recorded as `x-harvest-source-url` rather than wired as a `Website`
+pointer. (`digilabglobal.com`, the former host of founding member Digilab, Inc., has since been
+re-registered and now serves an unrelated online-gambling site.)
+
+Coverage: `state: none` / `reason: not-a-software-company`. No API surface to enrich.

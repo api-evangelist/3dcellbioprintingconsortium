@@ -1,23 +1,83 @@
 aid: 3dcellbioprintingconsortium
 name: 3D Cell Bioprinting Consortium
-description: '3D Cell Bioprinting Consortium is a company surfaced via the API Evangelist harvest backlog
-  (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  The 3D Cell Bioprinting Consortium (traded on the EquityZen secondary marketplace under the
+  symbol TDCC) is an alliance of laboratory-instrument and biomaterials companies formed in
+  2016 and publicly launched in February 2017, headquartered in Marlborough, Massachusetts.
+  It describes itself as "a group of companies focused on offering the complete solution for
+  tissue engineering" — coordinating bioprinter hardware, bioinks and hydrogels, cell lines
+  and culture reagents into a single workflow for pre-clinical drug discovery, regenerative
+  medicine and diagnostics. It was founded by Sid Braginsky, CEO and Chairman of Digilab
+  Corp., and its named members include Digilab, Inc. (maker of the CellJet cell printer,
+  represented by President and COO John Moore) and 3-D Matrix, Inc. (self-assembling peptide
+  hydrogels, represented by Managing Director Marc Rioult). The consortium is a coordinating
+  body for physical laboratory products, not a software vendor: it publishes no first-party
+  website, developer portal, documentation, SDK, or machine-readable API specification, and
+  no domain matching its name resolves in DNS. This profile is an independent third-party
+  record; there is no API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/3dcellbioprintingconsortium/refs/heads/main/apis.yml
+x-harvest-source-url: https://equityzen.com/company/3dcellbioprintingconsortium/
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
-x-tier-reason: harvest
+x-tier-reason: no-api-surface
+x-founded: '2016'
+x-headquarters: Marlborough, Massachusetts, United States
+x-domain-status: none
+x-domain-note: >-
+  No first-party domain was found. Six name-derived candidates were probed and every one is
+  NXDOMAIN (3dcellbioprintingconsortium.com/.org, 3dcellbioprinting.com/.org,
+  bioprintingconsortium.org, cellbioprintingconsortium.com). The only reachable record of the
+  company is the EquityZen secondary-market listing, which is a trading venue and NOT the
+  company's web presence, so it is recorded as x-harvest-source-url and is deliberately not
+  wired as a Website pointer (roadmap#56). Note also that digilabglobal.com — the former host
+  of founding member Digilab, Inc. — has been re-registered and now serves an unrelated
+  online-gambling site, so it is not usable as a consortium surface either.
 specificationVersion: '0.20'
 created: '2026-09-05'
 modified: '2026-09-05'
 tags:
 - Company
+- Consortium
+- Bioprinting
+- Tissue Engineering
+- Life Sciences
+- Biotechnology
+- Regenerative Medicine
+- Laboratory Instruments
+- Biomaterials
+- Drug Discovery
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-common:
-- type: Website
-  url: https://equityzen.com/company/3dcellbioprintingconsortium
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    The consortium is a marketing and coordination alliance for bioprinter hardware, bioinks
+    and cell-culture reagents — physical laboratory products — and it publishes no web
+    presence of its own at all: every name-derived domain is NXDOMAIN and the only reachable
+    record is its EquityZen secondary-market listing, so there is no host on which a
+    developer program, spec or /.well-known surface could exist.
+  evidence:
+  - url: https://equityzen.com/company/3dcellbioprintingconsortium/
+    status: 200
+  - url: https://3dcellbioprintingconsortium.com/
+    status: 0
+  - url: https://3dcellbioprinting.com/
+    status: 0
+  - url: https://bioprintingconsortium.org/
+    status: 0
+  - url: https://www.crunchbase.com/organization/3d-cell-bioprinting-consortium
+    status: 403
+  - url: https://api.github.com/orgs/3dcellbioprintingconsortium
+    status: 404
+  checked: '2026-09-05'
+x-enrichment:
+  date: '2026-09-05'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v3
