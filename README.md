@@ -64,25 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-The 3D Cell Bioprinting Consortium (EquityZen symbol **TDCC**) is an alliance of laboratory-instrument
-and biomaterials companies formed in 2016 and publicly launched in February 2017, headquartered in
-Marlborough, Massachusetts. It describes itself as "a group of companies focused on offering the
-complete solution for tissue engineering", coordinating bioprinter hardware, bioinks and hydrogels,
-cell lines and culture reagents into a single workflow for pre-clinical drug discovery, regenerative
-medicine and diagnostics. It was founded by Sid Braginsky (CEO and Chairman, Digilab Corp.); named
-members include Digilab, Inc. (CellJet cell printer) and 3-D Matrix, Inc. (self-assembling peptide
-hydrogels).
+The 3D Cell Bioprinting Consortium (traded on the EquityZen secondary marketplace under the symbol TDCC) is an alliance of laboratory-instrument and biomaterials companies formed in 2016 and publicly launched in February 2017, headquartered in Marlborough, Massachusetts. It describes itself as "a group of companies focused on offering the complete solution for tissue engineering" — coordinating bioprinter hardware, bioinks and hydrogels, cell lines and culture reagents into a single workflow for pre-clinical drug discovery, regenerative medicine and diagnostics. It was founded by Sid Braginsky, CEO and Chairman of Digilab Corp., and its named members include Digilab, Inc. (maker of the CellJet cell printer, represented by President and COO John Moore) and 3-D Matrix, Inc. (self-assembling peptide hydrogels, represented by Managing Director Marc Rioult). The consortium is a coordinating body for physical laboratory products, not a software vendor: it publishes no first-party website, developer portal, documentation, SDK, or machine-readable API specification, and no domain matching its name resolves in DNS. This profile is an independent third-party record; there is no API surface to enrich.
 
-## Why this profile is thin
+**Areas:** Company · Consortium · Bioprinting · Tissue Engineering · Life Sciences · Biotechnology · Regenerative Medicine · Laboratory Instruments · Biomaterials · Drug Discovery
 
-The consortium is a coordinating body for physical laboratory products, not a software vendor, and it
-publishes **no first-party web presence at all**. Every name-derived domain probed on 2026-09-05 is
-NXDOMAIN — `3dcellbioprintingconsortium.com`/`.org`, `3dcellbioprinting.com`/`.org`,
-`bioprintingconsortium.org`, `cellbioprintingconsortium.com` — so there is no host on which a
-developer portal, OpenAPI, `llms.txt`, MCP server or `/.well-known/` surface could exist. The only
-reachable record is the EquityZen secondary-market listing, which is a trading venue and not the
-company's website, so it is recorded as `x-harvest-source-url` rather than wired as a `Website`
-pointer. (`digilabglobal.com`, the former host of founding member Digilab, Inc., has since been
-re-registered and now serves an unrelated online-gambling site.)
+## 3D Cell Bioprinting Consortium on APIs.io
 
-Coverage: `state: none` / `reason: not-a-software-company`. No API surface to enrich.
+Everything profiled for 3D Cell Bioprinting Consortium is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/3dcellbioprintingconsortium/](https://apis.io/providers/3dcellbioprintingconsortium/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
+
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 3D Cell Bioprinting Consortium: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/3dcellbioprintingconsortium/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
